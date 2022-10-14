@@ -1,8 +1,8 @@
-let song_0 = new Song('2AM', 'JustaTee','./music/2AM - JustaTee ft BigDaddy.mp3','/MP3/image/2am.jpg');
-let song_1 = new Song('Chìm Sâu', 'RPT MCK', './music/Chìm Sâu - RPT MCK ft Trung trần.mp3', '/MP3/image/chimsau.jpg');
-let song_2 = new Song('Có Em', 'Madihu - Feat Low', './music/Có Em Madihu - Feat Low G.mp3', '/MP3/image/coem.jpg');
-let song_3 = new Song('Tell Ur Mom II', 'Winno', './music/Tell Ur Mom II - Winno.mp3', '/MP3/image/tellurmom.jpg');
-let song_4 = new Song('THERES NO ONE AT ALL','M-TP','./music/THERES NO ONE AT ALL - Sơn Tùng M-TP.mp3', '/MP3/image/therenoone.jpg');
+let song_0 = new Song('2AM', 'JustaTee','./music/2AM - JustaTee ft BigDaddy.mp3','image/2am.jpg');
+let song_1 = new Song('Chìm Sâu', 'RPT MCK', './music/Chìm Sâu - RPT MCK ft Trung trần.mp3', 'image/chimsau.jpg');
+let song_2 = new Song('Có Em', 'Madihu - Feat Low', './music/Có Em Madihu - Feat Low G.mp3', '/image/coem.jpg');
+let song_3 = new Song('Tell Ur Mom II', 'Winno', './music/Tell Ur Mom II - Winno.mp3', '/image/tellurmom.jpg');
+let song_4 = new Song('THERES NO ONE AT ALL','M-TP','./music/THERES NO ONE AT ALL - Sơn Tùng M-TP.mp3', '/image/therenoone.jpg');
 
 let musics = [song_0, song_1, song_2, song_3, song_4];
 document.getElementById('name').innerHTML = musics[0].name;
